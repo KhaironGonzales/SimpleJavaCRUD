@@ -1,0 +1,99 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Nov 15, 2024, 9:16:29 PM
+    Author     : Khai
+*/
+
+
+
+
+#addBut{
+    -fx-border-color: white;
+    -fx-background-color: #2294fb;
+    -fx-border-radius: 5px;
+    -fx-border-width: 5px;
+}
+
+#editBut{
+    -fx-border-color: white;
+    -fx-background-color: #2294fb;
+    -fx-border-radius: 5px;
+    -fx-border-width: 5px;
+}
+
+#delBut{
+    -fx-border-color: white;
+    -fx-background-color: #2294fb;
+    -fx-border-radius: 5px;
+    -fx-border-width: 5px;
+}
+
+#addBut:hover{
+    -fx-background-color: #1e85e1;
+    -fx-border-color: #1e85e1;
+    -fx-cursor: hand;
+}
+#editBut:hover{
+    -fx-background-color: #1e85e1;
+    -fx-border-color: #1e85e1;
+    -fx-cursor: hand;
+
+}
+#delBut:hover{
+    -fx-background-color: #1e85e1;
+    -fx-border-color: #1e85e1;
+    -fx-cursor: hand;
+}
+
+#Logout{
+    -fx-border-color: white;
+    -fx-background-color: #2294fb;
+    -fx-border-radius: 5px;
+    -fx-border-width: 5px;
+}
+
+#Logout:hover{
+    -fx-background-color: #1e85e1;
+    -fx-border-color: #1e85e1;
+    -fx-cursor: hand;
+}
+
+#canvas{
+    -fx-background-color: #2294fb;
+}
+
+#userTable{
+
+
+}
+
+#colId{
+
+
+
+
+}
+#colName{
+
+
+
+}
+#colEmail{
+
+
+
+}
+.table-view .column-header {
+
+
+}
+
+.table-view .scroll-bar:horizontal {
+    -fx-opacity: 0; /* Makes the scrollbar invisible */
+    -fx-max-height: 0; /* Prevents it from occupying space */
+}
+
+

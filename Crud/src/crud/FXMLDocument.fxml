@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="AnchorPane" focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="457.0" prefWidth="342.0" stylesheets="@Crud.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="crud.FXMLDocumentController">
+   <children>
+      <ImageView fx:id="WowImage" fitHeight="272.0" fitWidth="342.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@wow.png" />
+         </image>
+      </ImageView>
+      <BorderPane layoutX="72.0" layoutY="168.0" prefHeight="121.0" prefWidth="200.0">
+         <top>
+            <TextField fx:id="Username" prefHeight="28.0" prefWidth="200.0" promptText="Username" BorderPane.alignment="CENTER" />
+         </top>
+         <left>
+            <PasswordField fx:id="Password" prefHeight="30.0" prefWidth="200.0" promptText="Password" BorderPane.alignment="CENTER" />
+         </left>
+         <bottom>
+            <Button fx:id="LoginButton" mnemonicParsing="false" onAction="#handleLogin" text="Log In" BorderPane.alignment="CENTER" />
+         </bottom>
+      </BorderPane>
+      <Label layoutX="115.0" layoutY="102.0" text="Sign In">
+         <font>
+            <Font name="System Bold" size="34.0" />
+         </font>
+      </Label>
+      <GridPane layoutX="122.0" layoutY="321.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+              <Text fx:id="text" textAlignment="CENTER" wrappingWidth="101.33282470703125" />
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>
